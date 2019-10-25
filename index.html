@@ -1,0 +1,180 @@
+<html>
+
+<head>
+    <title>Vatsalya</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="mdl-layout--no-desktop-drawer-button" style="width:100vw">
+        <header class="mdl-layout__header mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">LEGENDS</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">EMINEM</a>
+                    <a class="mdl-navigation__link" href="">CRISTIANO RONALDO</a>
+                    <a class="mdl-navigation__link" href="">VIRAT KOHLI</a>
+                    <a class="mdl-navigation__link" href="">TOMMY SHELBY</a>
+                    <a class="mdl-navigation__link" href="">CONOR MCGREGOR</a>
+                    <a class="mdl-navigation__link" href="">MICHEAL JACKSON</a>
+                    <a class="mdl-navigation__link" href="">FREDDIE MERCURY</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <script>
+                images = [];
+                time = 1000;
+
+                images[0] = "595837.jpg";
+                images[1] = "62324.jpg";
+                images[2] = "bohemian-rhapsody-queen-music-movies.jpeg";
+                images[3] = "Conor-McGregor-Wallpapers-HQ.jpg";
+                images[4] = "Virat-Kohli-arrives-for-a-red-carpet-event-image.jpg";
+                images[5] = "5_Queen.jpg";
+                images[6] = "225292.jpg";
+                images[7] = "eminem.jpg";
+                images[8] = "1.jpg";
+
+                function changeImg() {
+                    i = Math.floor(Math.random() * 10);
+                    document.slide.src = images[i];
+
+                    setTimeout("changeImg()", time);
+                }
+                window.onload = changeImg;
+            </script>
+            <img name="slide" style="height:90vh; width:100vw;">
+        </div>
+        <span>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float: left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">EMINEM</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter,
+                    record producer, record
+                    executive, film producer, and actor.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://en.wikipedia.org/wiki/Eminem">
+                        View Profile
+                    </a>
+                </div>
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float:left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">CRISTIANO RONALDO</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Cristiano Ronaldo is a Portuguese professional footballer who plays
+                    as a forward for Serie A
+                    club Juventus and captains the Portugal national team.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float: left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">VIRAT KOHLI</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Virat Kohli is an Indian cricketer who currently captains the India national team. A
+                    right-handed top-order batsman,
+                    Kohli is regarded as one of the best batsmen in the world.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://en.wikipedia.org/wiki/Virat_Kohli">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float: left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">TOMMY SHELBY</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Tommy Shelby. War veteran, leader of back-street razor gang, criminal entrepreneur, legitimate
+                    bookmaker, captain of
+                    industry, and now member of parliament.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://www.bbc.co.uk/programmes/profiles/4T5qnzlnvHmWQcrl3yZyLwC/tommy-shelby">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float: left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">CONOR MCGREGOR</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Conor McGregor is an Irish professional mixed martial artist and boxer. He is a former
+                    Ultimate Fighting
+                    Championship featherweight and lightweight champion.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://en.wikipedia.org/wiki/Conor_McGregor">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="float: left">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">MICHEAL JACKSON</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Michael Joseph Jackson was an American singer, songwriter, and dancer. Dubbed the "King of Pop",
+                    One
+                    of the most significant cultural figures of the 20th century.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="https://www.michaeljackson.com/">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+            <div class="demo-card-square mdl-card mdl-shadow--2dp" style="margin-left: 37.5vw">
+                <div class="mdl-card__title mdl-card--expand">
+                    <h2 class="mdl-card__title-text">FREDDIE MERCURY</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Freddie Mercury was a British singer, songwriter, record producer, and lead vocalist of the rock
+                    band Queen.
+                    One of the greatest lead singers in the history of rock music.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                        href="http://www.freddiemercury.com/">
+                        View Profile
+                    </a>
+                </div>
+
+            </div>
+        </span>
+    </main>
+    </div>
+</body>
+
+</html>
